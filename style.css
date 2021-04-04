@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body  header .container {
+    background-image: url('shutterstock_23635246.jpg') ;
+    vertical-align: top;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0px 0 0;
+    max-width: auto;
+}
+
+h1{
+    display: inline-block;
+    background-size: 50%;
+    font-family: ten-mincho, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+    font-size: 100px;
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+line-height: 200px;
+color:black;
+background: rgb(255, 255, 255,.8);
+margin-top: 150px;
+}
+header .container p{
+    text-align: center;
+    padding: 20px;
+    color:azure;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+}
+.img{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img img{
+    border-radius: 30%;
+    width: 450px;
+    height: auto;
+}
+.img figcaption{
+    text-align: center; 
+}
+
+main{
+    background-image: url('ダウンロード.jpeg') ;
+    background-position: 0em;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0;
+    padding-top: 30px;
+}
+
+footer .container{
+    margin: 0;
+    text-align: center;
+    color:ghostwhite;
+    background-color: rgb(43, 41, 41);
+    padding: 30px;
+}
+
+main p{
+    text-align: center;
+}
+.map{
+    text-align: center;
+}
+
+/*スライドショー*/
+.store{
+    text-align: center;
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+}
+
+h4{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.imgbox{
+    padding-top: 90px;
+    text-align: center;
+}
+.store img{
+    max-width: 100%;
+    width: 500px;
+}
+
+
+.nav{
+    position: relative;
+    z-index: 30;
+    padding-top: -100px;
+}
+
+  #slide{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      vertical-align: middle;
+  }
+
+
+
+  #next{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 20px;
+  }
+  
+  #next::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 2px #080808;
+    border-right: solid 2px #080808;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+  }
+
+
+  #prev{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 30px;
+  }
+  
+  #prev::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 2px #050505;
+    border-right: solid 2px #070707;
+    -ms-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+  }
+
+
+  /*モバイルのスタイル*/
+  @media(max-width:810px){
+      h1{
+          font-size: 4rem;
+      }
+
+     header .container p{
+          font-size: 17px;
+      }
+
+      h2{
+          font-size:20px;
+      }
+
+      .img img{
+          width:16rem;
+      }
+      main{
+          text-align: center;
+      }
+      #menu{
+          text-align: center;
+      }
+
+      .store img{
+          width: 320px;
+      }
+    
+      iframe{
+          width: 400px;
+          height: 300px;
+          padding: 2rem;
+      }
+      
+
+      
+
+
+
+
+  }
+
+
+

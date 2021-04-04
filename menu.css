@@ -1,0 +1,29 @@
+body{
+    background-image: url('ダウンロード.jpeg');
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+main{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+/*スライドショー*/
+.store{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    margin: auto;
+}
+.imgbox{
+    text-align: center;
+}
