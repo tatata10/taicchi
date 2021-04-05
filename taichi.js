@@ -19,3 +19,6 @@
     document.getElementById('next').onclick=function(){
         changeImages(+1);
     };
+    document.getElementedById('next').onclick=function(){
+        console.log('上手に使えています')   
+    };
