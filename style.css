@@ -192,7 +192,7 @@ h4{
       }
 
       .store img{
-          width: 320px;
+          width: 16rem;
       }
       #slide{
           width: auto;
@@ -200,8 +200,8 @@ h4{
       }
     
       iframe{
-          width: 400px;
-          height: 300px;
+          width:16rem;
+          height: 13rem;
           padding: 2rem;
       }
       
